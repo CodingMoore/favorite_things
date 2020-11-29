@@ -8,7 +8,7 @@ Initialization Date: 2020-10-13
 This project is an exercise in creating a basic HTML webpage, very basic styling, creating a project fork, and deploying the project to GitHub Pages.
 
 ## Authors and Contributors
-Authored by: Randel Moore, Jeff Chiu, Ben McFarland.
+Authored by: Randel Moore, Zahnen Garner, Tawnee Harris.
 
 ## Contact
 RMGit.it@gmail.com
