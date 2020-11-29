@@ -17,4 +17,4 @@ RMGit.it@gmail.com
 
 GPLv3
 
-Randel Moore © 2020
+Randel Moore © 2020.
