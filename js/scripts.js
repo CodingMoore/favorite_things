@@ -6,24 +6,35 @@ $(document).ready(function() {
     const inputVal = $("#faveInput").val();
     thingsList.push(inputVal)
     $("#thingsOutput").text(thingsList);
-    //$("#superThingsOutput").text(superThingsList);
     event.preventDefault();  
   });
+
+
+  // $("#super").click(function() {   
+  //   const spliceVal1 = thingsList.splice(0,1);
+  //   superThingsList.push(spliceVal1);
+  //   $("#thingsOutput").text(thingsList);
+  //   $("#superThingsOutput").text(superThingsList);;
+  // });
+
+
   $("#super").click(function() {   
     const spliceVal1 = thingsList.splice(0,1);
     superThingsList.push(spliceVal1);
-    $("#thingsOutput").text(thingsList);
-    $("#superThingsOutput").text(superThingsList);
-    alert(thingsList);
-    alert(superThingsList);
+    const entry = superThingsList[superThingsList.length-1];
+    const entryString = entry.join();  //converts to string
+    $("#ulList").append("<li>"+ entryString +"</li>");
   });
-  $("#favorite").click(function() {   
-    const spliceVal2 = superThingsList.splice(0,1);
-    thingsList.push(spliceVal2);
-    $("#thingsOutput").text(thingsList);
-    $("#superThingsOutput").text(superThingsList);
-    alert(thingsList);
-    alert(superThingsList);
+  
+  $("#super").click(function() {   
+    
   });
-
+  
+  
+  // $("#favorite").click(function() {   
+  //   const spliceVal2 = superThingsList.splice(0,1);
+  //   thingsList.push(spliceVal2);
+  //   $("#thingsOutput").text(thingsList);
+  //   $("#superThingsOutput").text(superThingsList);
+  // });
 });

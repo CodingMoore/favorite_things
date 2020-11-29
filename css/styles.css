@@ -1,0 +1,47 @@
+.btn {
+  background-color: blanchedalmond;
+}
+#super {
+  background-color: blanchedalmond;
+}
+#favorite {
+  background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+/* function listOfThings(inputVal){
+  let thingsList = [];
+  thingsList.push(inputVal);
+  favThings(thingsList);
+  return thingsList; 
+}
+
+function favThings(thingsList) {
+  let newThingsList = thingsList.join(", ");
+  return newThingsList;
+}
+
+$(document).ready(function() {
+
+  $(document).submit(function(event) {
+    const inputVal = $("#faveInput").val();
+    let result = listOfThings(inputVal);
+
+    console.log("Hey listOfThings is working: " + result);
+  
+    $("#thingsOutput").text(results);
+    
+    event.preventDefault();  
+
+  });
+    $("#super").click(function(newThingsList) {   
+      newThingsList.pop();
+      alert(newThingsList);
+      //event.preventDefault();    
+    });
+}); */
